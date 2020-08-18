@@ -1,0 +1,74 @@
+#login .view {
+  background-image: url("../pictures/fond.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#login .gradient {
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.829),
+      rgba(92, 69, 28, 0.4) 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(0, 0, 0, 0.829), rgba(92, 69, 28, 0.4) 100%)
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.829),
+      rgba(92, 69, 28, 0.4) 100%
+    );
+}
+
+#login .card {
+    background-color: rgba(0, 0, 0, 0.521);
+    max-width: 700px;
+}
+
+#login h6 {
+    line-height: 1.7;
+}
+
+#login .btn{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#btn {
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+#btn :hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+  #btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #btn :hover span {
+    padding-right: 10px;
+  }
+  
+  #btn :hover span:after {
+    opacity: 1;
+    right: 0;
+  }

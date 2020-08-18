@@ -1,0 +1,90 @@
+/* FOND */
+.container-area{
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../src/pictures/fond.jpg");
+  background-size: cover;
+}
+
+/* NAVBAR */
+#haut img{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    min-width: 90px;
+    height:90px;
+  }
+  
+header {
+  height: 20%;
+}
+
+.navbar{
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+/* MAIN */
+main .card {
+  background-color: transparent;
+}
+#classic-card{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+h6{
+  line-height: 1.7;
+}
+  
+/* COMPETENCES */
+#noFond{
+  color: white;
+}
+
+#noFond .card-text{
+  color: white;
+}
+
+#noFond .card{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+#noFond .card-body{
+  height: 310px;
+}
+
+/* EXPERIENCE */
+#exp{
+  margin: auto;
+}
+
+#exp .step-content{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+/* CONTACT */
+#card1 .card-body{
+  background-color: rgba(0, 0, 0, 0.267);
+}
+#blabla{
+  font-size: 13px;
+}
+
+/* FORMATION */
+#form .card{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+#form .fd-icon{
+  background-color: transparent;
+  min-width: 70px;
+}
+
+#form .card-header{
+  background-color: rgba(0, 0, 0, 0.521);
+}
